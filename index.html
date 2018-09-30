@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Page Title</title>
+    <title>PigDice</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <script src="js/script.js"></script>
 </head>
+
 <body>
+    <div class="split left">
+        <div class="centered">
+            <img src="img/woman.png" alt="Avatar woman">
+            <h2>Player1</h2>
+            <p>ROLL DICE</p>
+            <div id="die1" class="dice">0</div>
+        </div>
+    </div>
+    <div class="split right">
+        <div class="centered">
+            <img src="img/woman.png" alt="Avatar man">
+            <h2>Player2</h2>
+            <p>ROLL DICE</p>
+            <div id="die2" class="dice">0</div>
+        </div>
+    </div>
+    <div class="container">
+    <h1>PIG DICE</h1>    
     
+        <button class="btn" onclick="rollDice()">roll</button>
+    <h2 id="status" ></h2>
+    </div>
+    </div>
+
 </body>
+
 </html>

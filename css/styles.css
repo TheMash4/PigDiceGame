@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    color: black;
+}
+
+.split {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left{
+    background-color: red;
+    left: 0;
+}
+
+.right {
+    background-color: blue;
+    right: 0;
+    
+}
+.center{
+    background-color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+div.dice{
+    float: left;
+    height: 25px;
+    width: 50px;
+    background: #f5f5f5;
+    border:#999 1px solid;
+    padding:10px;
+    font-size:24px;
+    text-align: center;
+    margin:5px;
+}
+
+
+.container{
+    transform: translate(45%, 400%);
+    padding-top: 20px;   
+}
